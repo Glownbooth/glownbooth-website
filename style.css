@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    /* --page-load-time: 1s; */
 }
 
 .header {
@@ -12,26 +11,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    /* animation: page-load var(--page-load-time) ease-in; */
 }
-
-/* @keyframes page-load {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0%);
-    }
-} */
-
-/* @keyframes text-box-load {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-} */
 
 nav {
     display: flex;
@@ -77,11 +57,6 @@ nav img {
     font-size: 13px;
 }
 
-/* .nav-link:hover {
-    color: #0095ff;
-    transition: 0.5s;
-} */
-
 .nav-menu li::after { 
     content: '';
     width: 0%;
@@ -111,7 +86,7 @@ nav img {
     background-color: white;
 }
 
-/*oude nav*/
+/*old nav*/
 .nav-links {
     flex: 1;
     text-align: right;
@@ -143,7 +118,7 @@ nav img {
 .nav-menu li:hover::after {
     width: 100%;
 }
-/*oude nav*/
+/*old nav*/
 
 .text-box {
     width: 90%;
@@ -153,7 +128,6 @@ nav img {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    /* animation: 1s ease-out text-box-load; */
 }
 
 .text-box h1 {
@@ -199,10 +173,6 @@ nav .fa {
 .whatsapp:hover {
     scale: 1.1;
 }
-
-/* @media(max-width: 700px) {
-    
-} */
 
 /*prijzenlijst*/
 .prijzen-lijst {
@@ -274,17 +244,12 @@ h2 {
     background-color: #e0eef1;
 }
 
-/* @media(max-width: 700px) {
-    
-} */
-
 /*over-ons*/
 .over-ons {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    /* animation: page-load var(--page-load-time) ease-in; */
 }
 
 .over-ons-omschrijving {
@@ -314,10 +279,6 @@ h2 {
     text-align: left;
 }
 
-/* @media(max-width: 700px) {
-    
-} */
-
 /*reviews*/
 .reviews {
     width: 80%;
@@ -333,7 +294,6 @@ h2 {
     text-align: left;
     background: #e0eef1;
     padding: 25px;
-    /* cursor: pointer; */
     display: flex;
 }
 
@@ -354,10 +314,6 @@ h2 {
     color: #0BAECC;
 }
 
-/* @media(max-width: 700px) {
-    
-} */
-
 /*contact*/
 .contact {
     margin: 100px auto;
@@ -375,10 +331,6 @@ h2 {
     margin-bottom: 40px;
     padding: 0;
 }
-
-/* @media(max-width: 700px) {
-    
-} */
 
 /*footer*/
 .footer {
@@ -444,41 +396,6 @@ h2 {
     margin-left: 25%;
 }
 
-/* @media(max-width: 700px) {
-    
-} */
-
-/* .contact-container {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-form {
-    background: #f2f2f2;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-label, input, textarea {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-input[type="submit"] {
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-} */
-
 .contact-container {
     width: 100%;
     max-width: 650px;
@@ -502,7 +419,6 @@ input[type="submit"] {
     border-radius: 3px;
     outline: 0;
     margin-bottom: 15px;
-    /* font-size: 18px; */
 }
 
 .form-row textarea {
@@ -528,10 +444,6 @@ input[type="submit"] {
     font-synthesis: 14px;
     margin-top: 10px;
 }
-
-/* @media(max-width: 700px) {
-    
-} */
 
 .other-page-nav {
     background-image: url(images/background.png);
@@ -582,11 +494,6 @@ input[type="submit"] {
     height: 100%;
 }
 
-/* .boeking-instructies-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-    transform: scale(1.1);
-} */
-
 .boeking-instructies-col h3 {
     text-align: left;
 }
@@ -594,10 +501,6 @@ input[type="submit"] {
 .boeking-instructies-col p {
     text-align: left;
 }
-
-/* @media(max-width: 700px) {
-    
-} */
 
 @media (max-width: 1024px){
     .prijzen-lijst-col img {

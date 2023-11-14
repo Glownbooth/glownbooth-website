@@ -261,7 +261,7 @@ h2 {
     flex-basis: 45%;
     border-radius: 10px;
     margin-bottom: 30px;
-    position: relative;
+/*     position: relative; */
     overflow: hidden;
 }
 
